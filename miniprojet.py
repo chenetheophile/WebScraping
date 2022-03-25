@@ -4,7 +4,7 @@ Created on Tue Mar 22 21:45:08 2022
 
 @author: chene
 """
-
+# zzzz
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 import time
