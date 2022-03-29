@@ -13,10 +13,10 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 import time
 import csv
-
-site=['https://aqicn.org/map/france/fr/','https://www.automobile-propre.com/dossiers/chiffres-vente-immatriculations-france/']
+import pandas as pd
+site=['https://aqicn.org/map/france/fr/',"https://e.infogram.com/d106e364-d435-4e45-8a64-e059d8f4d5e8?parent_url=https%3A%2F%2Fwww.automobile-propre.com%2Fdossiers%2Fchiffres-vente-immatriculations-france%2F&src=embed#async_embed"]
 driver = webdriver.Firefox()
-ImmatriculationsElectrique=[]
+ImmatriculationsElectrique={}
 Pollutiondelair=[]
 for url in site:
     driver.get(url)
@@ -68,12 +68,18 @@ for url in site:
             print('nombre de seconde pour une ville:'+str(temps))
     else:
         menu=Select(driver.find_element_by_tag_name("select"))
+        opt=menu.options
+        for op in opt:
+            annee.append(op.text)
         options=len(menu.options)
         for i in range(options):
-            valeur=[]
+            valeur={}
             driver.find_element_by_css_selector("div[class='igc-tab-switcher igc-tab-switcher__left']").click()
-            time.sleep(4)
+            time.sleep(5)
             mois=driver.find_element_by_class_name('igc-graph-group').find_elements_by_tag_name('text')
-            for i in range(len(mois)):
-                valeur.append(mois[i].text)
-            ImmatriculationsElectrique.append(valeur)
+            labelMois=driver.find_element_by_class_name('igc-x-axis-text').find_elements_by_tag_name('text')
+            for j in range(len(mois)):
+                valeur[labelMois[j].text]=mois[j].text
+            ImmatriculationsElectrique[annee[options-i-1]]=(valeur)
+        df=pd.DataFrame(ImmatriculationsElectrique)
+        df.to_csv('Immat.csv',sep=";",encoding='utf-8')
