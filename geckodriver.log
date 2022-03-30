@@ -2655,3 +2655,873 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 1648473755134	Marionette	INFO	Stopped listening on port 64604
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648627594139	geckodriver	INFO	Listening on 127.0.0.1:59272
+1648627597148	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59273" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileEKP0fP"
+1648627597482	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileEKP0fP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59273/devtools/browser/6cb03adc-a146-4fa9-b7e9-4e9226c1fc1b
+1648627599205	Marionette	INFO	Listening on port 59278
+1648627599299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2954 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648627626484	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648627626527	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2328 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 101 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648627776355	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648627776542	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 7268 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6230 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648627930047	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648627993932	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6945 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5017 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2154 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: https://aqicn.org/webapp/dist/historic-module-dyn.a2fd49fb3ec874823f13.js, line 1: TypeError: e.msg is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648628286089	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6508 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4591 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 73 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 7511 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648628445596	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648628475435	Marionette	INFO	Stopped listening on port 59278
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ps://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5281 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5661 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648628358856	Marionette	INFO	Stopped listening on port 59985
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1648628530304	geckodriver	INFO	Listening on 127.0.0.1:60242
+1648628533306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60243" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofilebw2rQ9"
+1648628533598	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofilebw2rQ9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60243/devtools/browser/5c571a1e-480e-4627-834c-537e70e3258c
+1648628535343	Marionette	INFO	Listening on port 60250
+1648628535456	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4462 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2442 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1180 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648628717934	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 3621 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648628859107	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1485 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4925 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648628919972	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 535 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: https://aqicn.org/webapp/dist/historic-module-dyn.a2fd49fb3ec874823f13.js, line 1: TypeError: e.msg is undefined
+1648629063887	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5010 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648629315431	Marionette	INFO	Stopped listening on port 60250
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 7714 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4866 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 3729 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 7187 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScJavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1648631381138	Marionette	INFO	Stopped listening on port 60755
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+ch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648630907124	geckodriver	INFO	Listening on 127.0.0.1:61874
+1648630910143	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61875" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileuptkLj"
+1648630910480	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileuptkLj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61875/devtools/browser/bddd8771-e459-4cd4-b9fd-c99c93f0c390
+1648630912241	Marionette	INFO	Listening on port 61880
+1648630912297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648630925590	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648630929981	Marionette	INFO	Stopped listening on port 61880
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1648630951550	geckodriver	INFO	Listening on 127.0.0.1:61999
+1648630954562	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62000" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileFL6jiU"
+1648630954856	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileFL6jiU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62000/devtools/browser/839a4bfa-9421-4358-a27b-38ec4a637f3b
+1648630956562	Marionette	INFO	Listening on port 62007
+1648630956593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6226 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4959 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5828 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648631381844	Marionette	INFO	Stopped listening on port 62007
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+port 58378
+1648631040297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2513 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 232 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 748 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 942 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 3487 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1599 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4172 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648631382856	Marionette	INFO	Stopped listening on port 58378
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+ools listening on ws://localhost:58694/devtools/browser/6bb78bc1-2e6b-4d0f-ab38-b3fa5fae5cab
+1648631368473	Marionette	INFO	Listening on port 58701
+1648631368561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5883 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6121 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4169 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4646 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2232 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648631427079	Marionette	INFO	Stopped listening on port 58701
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1648631430493	geckodriver	INFO	Listening on 127.0.0.1:58886
+1648631433537	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58887" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofile6BPBta"
+1648631433855	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofile6BPBta\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58887/devtools/browser/228a478f-b5e2-400c-9049-270fccd8c1a0
+1648631435497	Marionette	INFO	Listening on port 58894
+1648631435604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648631445583	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1240 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648631556462	Marionette	INFO	Stopped listening on port 58894
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+FO	Listening on port 59078
+1648631552536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1772 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648631647384	Marionette	INFO	Stopped listening on port 59078
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648631651109	geckodriver	INFO	Listening on 127.0.0.1:59215
+1648631654158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59216" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofilesT94Xj"
+1648631654453	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofilesT94Xj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59216/devtools/browser/0b302a19-f704-462a-90e6-26bc0ed339da
+1648631656177	Marionette	INFO	Listening on port 59245
+1648631656216	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 7363 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648631723004	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648631723008	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648631723020	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4372 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5743 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648631725605	Marionette	INFO	Stopped listening on port 59245
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648631752046	geckodriver	INFO	Listening on 127.0.0.1:51654
+1648631755080	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51655" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileSWkJu2"
+1648631755384	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileSWkJu2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51655/devtools/browser/6d18fff2-d20d-4c8d-a678-fed3ba020912
+1648631757309	Marionette	INFO	Listening on port 51673
+1648631757735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+1648631766834	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 6033 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 1331 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 1860 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 6420 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 1248 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648631842746	Marionette	INFO	Stopped listening on port 51673
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1648631963384	geckodriver	INFO	Listening on 127.0.0.1:51954
+1648631966392	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51955" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileYoqqrM"
+1648631966700	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileYoqqrM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51955/devtools/browser/51a7a062-fd78-4b67-9afd-2f6ce7bacd2b
+1648631968437	Marionette	INFO	Listening on port 51961
+1648631968537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 7122 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 5010 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 2970 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 2488 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648632460721	Marionette	INFO	Stopped listening on port 51961
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+ools listening on ws://localhost:52454/devtools/browser/c69eed0b-6b89-4af8-adf5-46f9ebbc555d
+1648632459359	Marionette	INFO	Listening on port 52460
+1648632459451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 1552 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 1005 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 4780 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 1139 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 5369 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648632624947	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648632624950	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 599 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648632769610	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648632769748	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648632769758	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648632769762	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 2287 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 284 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 6577 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 2931 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 6404 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: https://aqicn.org/webapp/dist/historic-module-dyn.a2fd49fb3ec874823f13.js, line 1: TypeError: e.msg is undefined
+1648633066246	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648633208288	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648633208343	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648633208399	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 7669 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 2177 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 5731 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648633353878	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648633353988	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648633354086	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 4029 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 7084 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 3161 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 2583 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 1720 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 6903 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648633568560	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 6635 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: https://aqicn.org/webapp/dist/historic-module-dyn.a2fd49fb3ec874823f13.js, line 1: TypeError: e.msg is undefined
+JavaScript error: https://aqicn.org/webapp/dist/historic-module-dyn.a2fd49fb3ec874823f13.js, line 1: TypeError: e.msg is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648633664226	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 4775 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 4696 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648633885789	Marionette	INFO	Stopped listening on port 52460
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1648634194100	geckodriver	INFO	Listening on 127.0.0.1:60408
+1648634197133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60410" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileJ4zVn7"
+1648634197438	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileJ4zVn7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60410/devtools/browser/9620efb2-f5a8-40b4-ab15-b13f4f6adb02
+1648634199346	Marionette	INFO	Listening on port 60415
+1648634199806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 7628 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 1609 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 4908 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 3071 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 7019 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648634231785	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 499 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648634258708	Marionette	INFO	Stopped listening on port 60415
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1648634400081	geckodriver	INFO	Listening on 127.0.0.1:60725
+1648634403138	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60726" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofilebvqCjf"
+1648634403445	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofilebvqCjf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60726/devtools/browser/ebb54f47-bd7b-4dd7-a43e-e9521281f2e2
+1648634405231	Marionette	INFO	Listening on port 60735
+1648634405283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+1648634431114	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648634431207	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 7586 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648634526828	Marionette	INFO	Stopped listening on port 60735
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1648634528129	geckodriver	INFO	Listening on 127.0.0.1:60899
+1648634531151	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60900" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileY4v2In"
+1648634531461	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileY4v2In\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60900/devtools/browser/3e084a89-01fb-496b-9111-b6d0b855bced
+1648634533309	Marionette	INFO	Listening on port 60906
+1648634533823	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 2882 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 4313 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 5022 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 3795 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 3858 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 2820 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 7202 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648634707384	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 262 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 5474 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 5868 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 873 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 985 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 3133 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 3647 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 3805 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 389 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 4800 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 2210 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 583 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: https://aqicn.org/webapp/dist/historic-module-dyn.a2fd49fb3ec874823f13.js, line 1: TypeError: e.msg is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 6044 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 567 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 1166 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 2873 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648635439553	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648635439649	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/njEQSFvQmVZPXGz1GqDnvx6UYUmy29w-ZdzcuuIp78M.js line 1 > eval line 1704 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648635648108	Marionette	INFO	Stopped listening on port 60901648635648244	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57517" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileRK1Y0F"
+1648635648584	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileRK1Y0F\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57517/devtools/browser/cfbb978a-365f-4906-9c85-bd1244387a3d
+1648635650309	Marionette	INFO	Listening on port 57525
+1648635650405	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5634 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5727 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4963 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 293 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5701 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648636105508	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1987 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648636250698	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6644 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: https://aqicn.org/webapp/dist/historic-module-dyn.a2fd49fb3ec874823f13.js, line 1: TypeError: e.msg is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2324 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648636398762	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6868 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4202 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1001 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 493 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4046 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5134 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4724 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4347 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4827 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 581 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4675 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5415 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1648636965736	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 7357 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 3303 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648638599143	Marionette	INFO	Stopped listening on port 57525
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofile8BuUV5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54478/devtools/browser/4059e19a-dded-4fba-a828-f7655e4441ba
+1648637564783	Marionette	INFO	Listening on port 54484
+1648637564868	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript error: https://aqicn.org/webapp/dist/historic-module-dyn.a2fd49fb3ec874823f13.js, line 1: TypeError: e.msg is undefined
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6884 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 7595 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6094 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648637727608	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4895 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 7463 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2441 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 3841 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 3357 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: https://aqicn.org/webapp/dist/historic-module-dyn.a2fd49fb3ec874823f13.js, line 1: TypeError: e.msg is undefined
+1648638312019	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 759 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648638459111	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1734 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648638462515	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1648638600264	Marionette	INFO	Stopped listening on port 54484
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileUwPHBo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54911/devtools/browser/7ba479ab-9a12-45c9-812c-5814a28692c4
+1648638601711	Marionette	INFO	Listening on port 54919
+1648638601749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript error: https://aqicn.org/webapp/dist/historic-module-dyn.a2fd49fb3ec874823f13.js, line 1: TypeError: e.msg is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1063 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1509 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5463 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5775 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6177 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648638766327	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6764 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2616 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648638910939	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648638911092	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1423 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648639057309	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5036 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 3088 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: https://aqicn.org/webapp/dist/historic-module-dyn.a2fd49fb3ec874823f13.js, line 1: TypeError: e.msg is undefined
+1648639347313	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 3634 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4816 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648639492633	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648639492711	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2167 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648639495783	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4206 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6456 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648639756794	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 764 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4129 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 7470 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648639759815	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648639901561	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648639901682	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648639901715	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 325 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4201 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2790 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648640472983	Marionette	INFO	Stopped listening on port 54919
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+ NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileLw3JdU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53161/devtools/browser/33e83534-6af7-4e83-88cf-e15b6027c030
+1648640471216	Marionette	INFO	Listening on port 53168
+1648640471302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1020 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648640487679	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4171 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648640524395	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:235:19
+TimedPromise@chrome://remote/content/marionette/sync.js:220:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5050 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648640544354	Marionette	INFO	Stopped listening on port 53168
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648640551525	geckodriver	INFO	Listening on 127.0.0.1:53310
+1648640554569	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53311" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofiletS6ix6"
+1648640554871	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofiletS6ix6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53311/devtools/browser/3e741cd8-5e15-4358-a900-f8646bbf03e4
+1648640556603	Marionette	INFO	Listening on port 53316
+1648640556719	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+JavaScript warning: https://aqicn.org/jscripts-static/leaflet-gl/buildx/prod/vendors~map-markers.6250ee18bece72a0177d.js, line 1: WebGL context was lost.
+1648640561167	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6256 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2777 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 7240 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5706 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 490 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1804 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5589 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 3340 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5785 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript error: https://aqicn.org/webapp/dist/historic-module-dyn.a2fd49fb3ec874823f13.js, line 1: TypeError: e.msg is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 1398 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5766 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5909 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648641311273	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1648641454264	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4773 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 374 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 669 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 7711 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 6733 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 7635 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 421 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648641863810	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 4442 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 2131 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/XiW-l_2i5aVoH8u79KLQHFanU8pv7NVYiw1EHy6cTgU.js line 1 > eval line 5105 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginHelper(Content): "Couldn't parse origin for" "about:blank" ({})
+1648642220402	Marionette	INFO	Stopped listening on port 53316
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
