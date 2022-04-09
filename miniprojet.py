@@ -11,7 +11,22 @@ from selenium.webdriver.common.by import By
 import time
 import pandas as pd
 
-site=['https://aqicn.org/map/france/fr/',"https://e.infogram.com/d106e364-d435-4e45-8a64-e059d8f4d5e8?parent_url=https%3A%2F%2Fwww.automobile-propre.com%2Fdossiers%2Fchiffres-vente-immatriculations-france%2F&src=embed#async_embed"]
+def CalculMoyenne(list):
+    sum=0
+    for element in list:
+        if type(element)==type(""):
+            sum+=int(element)
+        else:
+            sum+=element
+    return sum/len(list)
+
+VilleList=[]
+AnneeList=[]
+MoyenneList=[]
+RegionList=[]
+nomRegion=["Ile-de-France","Centre-Val de Loire","Bourgogne-Franche-Comte","Normandie","Hauts-de-France","Grand Est",
+                "Pays de la Loire","Bretagne","Nouvelle-Aquitaine","Occitanie","Auvergne-Rhone-Alpes","Provence-Alpes-Cote d'Azur","Corse"]
+site=['https://aqicn.org/map/france/en/',"https://e.infogram.com/d106e364-d435-4e45-8a64-e059d8f4d5e8?parent_url=https%3A%2F%2Fwww.automobile-propre.com%2Fdossiers%2Fchiffres-vente-immatriculations-france%2F&src=embed#async_embed"]
 driver = webdriver.Firefox()
 ImmatriculationsElectrique={}
 Pollutiondelair={}
@@ -19,14 +34,11 @@ for url in site:
     driver.get(url)
     time.sleep(2)
     if url is site[0]:
-        # ville=['Paris','Marseille','Lyon','Toulouse','Nice','Nantes','Montpellier','Strasbourg','Bordeaux','Lille','Rennes',
-        #         'Reims','Toulouse','Saint-Étienne','Le Havre', 'Grenoble', 'Dijon','Angers','Saint-Denis','Villeurbanne',
-        #         'Nîmes','Clermont-Ferrand','Aix-en-Provence','Le Mans','Brest','Tours','Amiens','Limoges','Annecy',
-        #         'Boulogne-Billancourt','Perpignan','Metz','Besançon','Orléans','Rouen','Montreuil','Argenteuil',
-        #         'Mulhouse','Caen',	'Nancy','Saint-Paul','Roubaix','Tourcoing',	'Nanterre','Vitry-sur-Seine','Nouméa',
-        #         'Créteil','Avignon','Poitiers','Aubervilliers','Asnières-sur-Seine','Aulnay-sous-Bois']
-        ville=['Paris','Marseille','Lyon Centre','Toulouse','Nice','Nantes','Montpellier','Strasbourg est','Talence','Lille fives','Rennes']
-        for nom in ville:
+        villeAScrap=["Paris","Saint-Denis a1","Tours Joue les Tours","Orleans St Jean de Braye","Dijon","Besancon","Havre parc de brotonne","Rouen","Lille fives","Amiens",
+          "Reims Jean d'Aulan","Mulhouse sud","Nantes","Angers","Rennes","Brest Jean","Talence","Poitier","Toulouse","Montpellier","Lyon Centre",
+          "Saint-etienne sud","Marseille rabatau","Nice","Bastia montesoro"]
+        # villeAScrap=["Paris"]
+        for nom in villeAScrap:
             time1=time.perf_counter()
             recherche=driver.find_element(By.ID,'full-page-search-input')
             time.sleep(2)
@@ -48,13 +60,13 @@ for url in site:
             for element in Annee:
                 marqueurAnnee.append(element.text)
             time.sleep(1)
-            annee={}
+            anneeDic={}
             diction={}
             for i in range(len(ligneTab)-1,-1,-1):  
                     if ligneTab[i].get_attribute('class')=="year-divider":
-                        diction[ligneTab[i].text]=(annee)
-                        Pollutiondelair[nom]=diction
-                        annee={}
+                        diction[ligneTab[i].text]=(anneeDic)
+                        Pollutiondelair[nom.split(" ")[0]]=diction
+                        anneeDic={}
                     else:
                         mois=[]
                         carre=ligneTab[i].find_elements(By.CLASS_NAME,'squares')
@@ -62,26 +74,27 @@ for url in site:
                         for element in carre:
                             text=element.find_elements(By.TAG_NAME,'text')
                             for balise in text:
-                                mois.append(balise.text)
-                        annee[ligneTab[i].find_element(By.TAG_NAME,'td').text]=mois
+                                if balise.text!="-" and balise.text!="-":
+                                    mois.append(balise.text)
+                        labelmois=ligneTab[i].find_element(By.TAG_NAME,'td').text
+                        if labelmois!="-" and labelmois!="" :
+                            anneeDic[labelmois]=mois
             temps=(time.perf_counter()-time1)
             print('nombre de seconde pour '+nom+':'+str(temps))
-        pd.DataFrame(Pollutiondelair).to_csv("Pollution.csv",sep=";")
-    else:
-        annee=[]
-        menu=Select(driver.find_element(By.TAG_NAME,"select"))
-        opt=menu.options
-        for op in opt:
-            annee.append(op.text)
-        options=len(menu.options)
-        for i in range(options):
-            valeur={}
-            driver.find_element_by_css_selector("div[class='igc-tab-switcher igc-tab-switcher__left']").click()
-            time.sleep(5)
-            mois=driver.find_element(By.CLASS_NAME,'igc-graph-group').find_elements(By.TAG_NAME,'text')
-            labelMois=driver.find_element(By.CLASS_NAME,'igc-x-axis-text').find_elements(By.TAG_NAME,'text')
-            for j in range(len(mois)):
-                valeur[labelMois[j].text]=mois[j].text
-            ImmatriculationsElectrique[annee[options-i-1]]=(valeur)
-        pd.DataFrame(ImmatriculationsElectrique).to_csv('Immat.csv',sep=";",encoding='utf-8')
-        
+            
+        iter=0
+        for ville in Pollutiondelair:
+            for anneeVille in Pollutiondelair[ville]:
+                SommeMoyenne=0
+                for mois in Pollutiondelair[ville][anneeVille]:
+                    if len(Pollutiondelair[ville][anneeVille][mois])!=0:
+                        SommeMoyenne+=CalculMoyenne(Pollutiondelair[ville][anneeVille][mois])
+                if len(Pollutiondelair[ville][anneeVille])!=0:
+                    MoyenneList.append(SommeMoyenne/len(Pollutiondelair[ville][anneeVille]))
+                AnneeList.append(anneeVille)
+                VilleList.append(ville)
+                RegionList.append(nomRegion[iter])
+            if ville in ['Saint-Denis','Orleans','Besancon','Rouen','Amiens','Mulhouse','Angers','Brest','Poitier','Montpellier','Saint-etienne','Nice']:
+                iter+=1
+        df=pd.DataFrame({'Annee':AnneeList,'Region':RegionList,'Ville':VilleList,"Moyenne Annuel":MoyenneList}).to_csv("Pollution2.csv",sep=";")
+
