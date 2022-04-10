@@ -4851,3 +4851,14 @@ console.error: SearchService: "maybeReloadEngines failed" (new TypeError("AddonM
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
 console.error: SearchSettings: "_write: Could not write to settings file:" (new AbortError("IOUtils: Shutting down and refusing additional I/O tasks", (void 0), 224))
+1649587851076	geckodriver	INFO	Listening on 127.0.0.1:64601
+1649587854156	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64602" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofilemV4H09"
+1649587854875	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofilemV4H09\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:64602/devtools/browser/ed7a6d79-f148-40b0-8809-22e32a4c759d
+1649587856735	Marionette	INFO	Listening on port 64609
+1649587856858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649587857601	Marionette	INFO	Stopped listening on port 64609
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
