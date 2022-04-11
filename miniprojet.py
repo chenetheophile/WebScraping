@@ -110,7 +110,7 @@ dfProduction=dfProduction.fillna(0)
 dfImmatriculations=pd.read_csv("ImmatriculationsTypeEnergieRegion.csv",sep=";")
 print(dfImmatriculations.info())
 
-dfPopulation=pd.read_csv("région_habitant.csv",sep=";")
+dfPopulation=pd.read_csv("region_habitant.csv",sep=";")
 
 Population=[]
 
@@ -136,3 +136,59 @@ df=pd.merge(df,dfPopulation,on=["Annee","Region"],how='inner')
 df=pd.merge(df,dfProduction,on=["Annee","Region"],how='inner')
 df=pd.merge(df,dfImmatriculations,on=["Annee","Region"],how='inner')
 print(df.to_csv("Donneefusionner.csv",sep=";"))
+"""
+
+Partie Map 
+
+"""
+
+import json,unicodedata
+import pandas as pd
+
+df=pd.read_csv("C:/Users/chene/Documents/GitHub/WebScraping/Donneefusionner.csv")
+
+
+with open("C:/Users/chene/Documents/GitHub/WebScraping/regionsjson.txt",encoding='UTF-8') as json_file:
+    data = json.load(json_file)
+    for region in data['features']:
+        region['properties']['nom']= ''.join((c for c in unicodedata.normalize('NFD', region['properties']['nom']) if unicodedata.category(c) != 'Mn'))
+        region['properties']['Population']=df['Population']
+        region['properties']['Nucleaire']=df['Nucleaire']
+        region['properties']['Thermique']=df['Thermique']
+        region['properties']['Hydrolique']=df['Hydrolique']
+        region['properties']['Eolien']=df['Eolien']
+        region['properties']['Solaire']=df['Solaire']
+        region['properties']['Bioenergie']=df['Bioenergie']
+        region['properties']['Essence']=df['Essence']
+        region['properties']['Hybride']=df['Hybride']
+        region['properties']['Diesel']=df['Diesel']
+        region['properties']['GPL']=df['GPL']
+        region['properties']['Electrique']=df['Electrique']
+        region['properties']['Autre']=df['Autre']
+        region['properties']['moyenneRegion']=df['moyenneRegion']
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
