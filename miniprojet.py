@@ -25,8 +25,8 @@ AnneeList=[]
 MoyenneList=[]
 RegionList=[]
 nomRegion=["Ile-de-France","Centre-Val de Loire","Bourgogne-Franche-Comte","Normandie","Hauts-de-France","Grand Est",
-                "Pays de la Loire","Bretagne","Nouvelle-Aquitaine","Occitanie","Auvergne-Rhone-Alpes","Provence-Alpes-Cote d'Azur","Corse"]
-site=['https://aqicn.org/map/france/en/',"https://e.infogram.com/d106e364-d435-4e45-8a64-e059d8f4d5e8?parent_url=https%3A%2F%2Fwww.automobile-propre.com%2Fdossiers%2Fchiffres-vente-immatriculations-france%2F&src=embed#async_embed"]
+                "Pays de la Loire","Bretagne","Nouvelle-Aquitaine","Occitanie","Auvergne-Rhone-Alpes","Provence-Alpes-Cote d"Azur","Corse"]
+site=["https://aqicn.org/map/france/en/","https://e.infogram.com/d106e364-d435-4e45-8a64-e059d8f4d5e8?parent_url=https%3A%2F%2Fwww.automobile-propre.com%2Fdossiers%2Fchiffres-vente-immatriculations-france%2F&src=embed#async_embed"]
 driver = webdriver.Firefox()
 ImmatriculationsElectrique={}
 Pollutiondelair={}
@@ -35,27 +35,27 @@ for url in site:
     time.sleep(2)
     if url is site[0]:
         villeAScrap=["Paris","Saint-Denis a1","Tours Joue les Tours","Orleans St Jean de Braye","Dijon","Besancon","Havre parc de brotonne","Rouen","Lille fives","Amiens",
-          "Reims Jean d'Aulan","Mulhouse sud","Nantes","Angers","Rennes","Brest Jean","Talence","Poitier","Toulouse","Montpellier","Lyon Centre",
+          "Reims Jean d"Aulan","Mulhouse sud","Nantes","Angers","Rennes","Brest Jean","Talence","Poitier","Toulouse","Montpellier","Lyon Centre",
           "Saint-etienne sud","Marseille rabatau","Nice","Bastia montesoro"]
         # villeAScrap=["Paris"]
         for nom in villeAScrap:
             time1=time.perf_counter()
-            recherche=driver.find_element(By.ID,'full-page-search-input')
+            recherche=driver.find_element(By.ID,"full-page-search-input")
             time.sleep(2)
             recherche.send_keys(nom)
             time.sleep(3)
             recherche.location_once_scrolled_into_view
             time.sleep(3)
-            driver.find_element(By.ID,'searchResults').find_element(By.TAG_NAME,'a').click()
+            driver.find_element(By.ID,"searchResults").find_element(By.TAG_NAME,"a").click()
             time.sleep(2)
-            driver.find_element(By.ID,'h1header3').location_once_scrolled_into_view
+            driver.find_element(By.ID,"h1header3").location_once_scrolled_into_view
             time.sleep(2)
-            donneeshistorique=driver.find_element(By.CLASS_NAME,'historical-yearly-data')
+            donneeshistorique=driver.find_element(By.CLASS_NAME,"historical-yearly-data")
             time.sleep(2)
-            Annee=donneeshistorique.find_elements(By.CLASS_NAME,'year-divider')
+            Annee=donneeshistorique.find_elements(By.CLASS_NAME,"year-divider")
             marqueurAnnee=[]
             time.sleep(2)
-            ligneTab=donneeshistorique.find_elements(By.TAG_NAME,'tr')
+            ligneTab=donneeshistorique.find_elements(By.TAG_NAME,"tr")
             time.sleep(2)
             for element in Annee:
                 marqueurAnnee.append(element.text)
@@ -63,24 +63,24 @@ for url in site:
             anneeDic={}
             diction={}
             for i in range(len(ligneTab)-1,-1,-1):  
-                    if ligneTab[i].get_attribute('class')=="year-divider":
+                    if ligneTab[i].get_attribute("class")=="year-divider":
                         diction[ligneTab[i].text]=(anneeDic)
                         Pollutiondelair[nom.split(" ")[0]]=diction
                         anneeDic={}
                     else:
                         mois=[]
-                        carre=ligneTab[i].find_elements(By.CLASS_NAME,'squares')
+                        carre=ligneTab[i].find_elements(By.CLASS_NAME,"squares")
                         time.sleep(1)
                         for element in carre:
-                            text=element.find_elements(By.TAG_NAME,'text')
+                            text=element.find_elements(By.TAG_NAME,"text")
                             for balise in text:
                                 if balise.text!="-" and balise.text!="-":
                                     mois.append(balise.text)
-                        labelmois=ligneTab[i].find_element(By.TAG_NAME,'td').text
+                        labelmois=ligneTab[i].find_element(By.TAG_NAME,"td").text
                         if labelmois!="-" and labelmois!="" :
                             anneeDic[labelmois]=mois
             temps=(time.perf_counter()-time1)
-            print('nombre de seconde pour '+nom+':'+str(temps))
+            print("nombre de seconde pour "+nom+":"+str(temps))
             
         iter=0
         for ville in Pollutiondelair:
@@ -94,9 +94,9 @@ for url in site:
                 AnneeList.append(anneeVille)
                 VilleList.append(ville)
                 RegionList.append(nomRegion[iter])
-            if ville in ['Saint-Denis','Orleans','Besancon','Rouen','Amiens','Mulhouse','Angers','Brest','Poitier','Montpellier','Saint-etienne','Nice']:
+            if ville in ["Saint-Denis","Orleans","Besancon","Rouen","Amiens","Mulhouse","Angers","Brest","Poitier","Montpellier","Saint-etienne","Nice"]:
                 iter+=1
-        df=pd.DataFrame({'Annee':AnneeList,'Region':RegionList,'Ville':VilleList,"Moyenne Annuel":MoyenneList}).to_csv("Pollution2.csv",sep=";")
+        df=pd.DataFrame({"Annee":AnneeList,"Region":RegionList,"Ville":VilleList,"Moyenne Annuel":MoyenneList}).to_csv("Pollution2.csv",sep=";")
 
 """
 
@@ -116,25 +116,25 @@ Population=[]
 
 dfQualite=pd.read_csv("Pollution2.csv",sep=";")
 nomRegion=["Ile-de-France","Centre-Val de Loire","Bourgogne-Franche-Comte","Normandie","Hauts-de-France","Grand Est",
-                "Pays de la Loire","Bretagne","Nouvelle-Aquitaine","Occitanie","Auvergne-Rhone-Alpes","Provence-Alpes-Cote d'Azur","Corse"]
+                "Pays de la Loire","Bretagne","Nouvelle-Aquitaine","Occitanie","Auvergne-Rhone-Alpes","Provence-Alpes-Cote d"Azur","Corse"]
 moyenneRegion=[]
 Region=[]
 listAnnee=[]
 for region in nomRegion:
     tabAnnee=[]
-    for annee in dfQualite.loc[lambda ligne:ligne['Region']==region]["Annee"]:
+    for annee in dfQualite.loc[lambda ligne:ligne["Region"]==region]["Annee"]:
         if annee not in tabAnnee:
             tabAnnee.append(annee)
     for element in tabAnnee:
         listAnnee.append(element)
-        moyenneRegion.append(dfQualite.loc[lambda ligne:ligne['Annee']==element].loc[lambda ligne:ligne['Region']==region,'Moyenne Annuel'].mean())
+        moyenneRegion.append(dfQualite.loc[lambda ligne:ligne["Annee"]==element].loc[lambda ligne:ligne["Region"]==region,"Moyenne Annuel"].mean())
         Region.append(region)
 
-df=pd.DataFrame({'Annee':listAnnee,'MoyenneRegion':moyenneRegion,'Region':Region})
+df=pd.DataFrame({"Annee":listAnnee,"MoyenneRegion":moyenneRegion,"Region":Region})
 print(df.count())
-df=pd.merge(df,dfPopulation,on=["Annee","Region"],how='inner')
-df=pd.merge(df,dfProduction,on=["Annee","Region"],how='inner')
-df=pd.merge(df,dfImmatriculations,on=["Annee","Region"],how='inner')
+df=pd.merge(df,dfPopulation,on=["Annee","Region"],how="inner")
+df=pd.merge(df,dfProduction,on=["Annee","Region"],how="inner")
+df=pd.merge(df,dfImmatriculations,on=["Annee","Region"],how="inner")
 print(df.to_csv("Donneefusionner.csv",sep=";"))
 """
 
@@ -145,28 +145,47 @@ Partie Map
 import json,unicodedata
 import pandas as pd
 
-df=pd.read_csv("C:/Users/chene/Documents/GitHub/WebScraping/Donneefusionner.csv")
-
-
-with open("C:/Users/chene/Documents/GitHub/WebScraping/regionsjson.txt",encoding='UTF-8') as json_file:
+df=pd.read_csv("C:/Users/chene/Documents/GitHub/WebScraping/Donneefusionner.csv",sep=";")
+print(df)
+listAnnee=[]
+listRegions=[]
+for annee in df.Annee:
+    if annee not in listAnnee:
+        listAnnee.append(annee)
+for region in df.Region:
+    if region not in listRegions:
+        listRegions.append(region)   
+with open("C:/Users/chene/Documents/GitHub/WebScraping/regionsjson.txt",encoding="UTF-8") as json_file:
     data = json.load(json_file)
-    for region in data['features']:
-        region['properties']['nom']= ''.join((c for c in unicodedata.normalize('NFD', region['properties']['nom']) if unicodedata.category(c) != 'Mn'))
-        region['properties']['Population']=df['Population']
-        region['properties']['Nucleaire']=df['Nucleaire']
-        region['properties']['Thermique']=df['Thermique']
-        region['properties']['Hydrolique']=df['Hydrolique']
-        region['properties']['Eolien']=df['Eolien']
-        region['properties']['Solaire']=df['Solaire']
-        region['properties']['Bioenergie']=df['Bioenergie']
-        region['properties']['Essence']=df['Essence']
-        region['properties']['Hybride']=df['Hybride']
-        region['properties']['Diesel']=df['Diesel']
-        region['properties']['GPL']=df['GPL']
-        region['properties']['Electrique']=df['Electrique']
-        region['properties']['Autre']=df['Autre']
-        region['properties']['moyenneRegion']=df['moyenneRegion']
-        
+    
+    for annee in listAnnee:
+        for nomregion in listRegions:
+            ligne=df[(df.Region==nomregion) & (df.Annee==annee)]
+            for region in data["features"]:
+                region["properties"]["nom"]= "".join((c for c in unicodedata.normalize("NFD", region["properties"]["nom"]) if unicodedata.category(c) != "Mn"))
+                region["properties"]["Population"]=ligne["Population"].values[0]
+                region["properties"]["Nucleaire"]=ligne["Parc nucléaire (MW)"].values[0]
+                region["properties"]["Thermique"]=ligne["Parc thermique fossile (MW)"].values[0]
+                region["properties"]["Hydrolique"]=ligne["Parc hydraulique (MW)"].values[0]
+                region["properties"]["Eolien"]=ligne["Parc éolien (MW)"].values[0]
+                region["properties"]["Solaire"]=ligne["Parc solaire (MW)"].values[0]
+                region["properties"]["Bioenergie"]=ligne["Parc bioénergies (MW)"].values[0]
+                region["properties"]["Essence"]=ligne["Essence"].values[0]
+                region["properties"]["Hybride"]=ligne["Hybride"].values[0]
+                region["properties"]["Diesel"]=ligne["diesel"].values[0]
+                region["properties"]["GPL"]=ligne["GPL"].values[0]
+                region["properties"]["Electrique"]=ligne["electrique"].values[0]
+                region["properties"]["Autre"]=ligne["autre"].values[0]
+                region["properties"]["moyenneRegion"]=ligne["MoyenneRegion"].values[0]
+        with open("C:/Users/chene/Documents/GitHub/WebScraping/regionsjson"+str(annee)+".json","w")as file:
+            json.dump(data,file)
+
+
+
+
+
+
+"""On cherche ajouter au properties les données / an pour avoir autant de fichier que d année 
 
 
 
@@ -174,6 +193,9 @@ with open("C:/Users/chene/Documents/GitHub/WebScraping/regionsjson.txt",encoding
 
 
 
+
+
+"""
 
 
 
