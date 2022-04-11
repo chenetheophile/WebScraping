@@ -4862,3 +4862,29 @@ DevTools listening on ws://localhost:64602/devtools/browser/ed7a6d79-f148-40b0-8
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1649682438387	geckodriver	INFO	Listening on 127.0.0.1:50296
+1649682441481	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50297" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileNR72vq"
+1649682442161	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofileNR72vq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50297/devtools/browser/b3008e3c-009f-4cfd-a33a-f7e93a3c35d9
+1649682444251	Marionette	INFO	Listening on port 50304
+1649682444479	Marionette	INFO	Stopped listening on port 50304
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: SearchService: "maybeReloadEngines failed" (new TypeError("policy is null", "resource://gre/modules/SearchService.jsm", 2679))
+[Parent 2532, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/ExtensionSettingsStore.jsm, line 122: Error: The ExtensionSettingsStore was accessed before the initialize promise resolved.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+[Parent 2532, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1649682769738	geckodriver	INFO	Listening on 127.0.0.1:50649
+1649683019602	geckodriver	INFO	Listening on 127.0.0.1:50867
+1649683022659	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50868" "-no-remote" "-profile" "C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofiledQwhEq"
+1649683022977	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chene\\AppData\\Local\\Temp\\rust_mozprofiledQwhEq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50868/devtools/browser/d1457913-c95b-4f94-a32d-c31d5fcc1cde
+1649683024724	Marionette	INFO	Listening on port 50877
+1649683024820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1649683026054	Marionette	INFO	Stopped listening on port 50877
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]

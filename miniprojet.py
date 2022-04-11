@@ -25,7 +25,7 @@ AnneeList=[]
 MoyenneList=[]
 RegionList=[]
 nomRegion=["Ile-de-France","Centre-Val de Loire","Bourgogne-Franche-Comte","Normandie","Hauts-de-France","Grand Est",
-                "Pays de la Loire","Bretagne","Nouvelle-Aquitaine","Occitanie","Auvergne-Rhone-Alpes","Provence-Alpes-Cote d"Azur","Corse"]
+                "Pays de la Loire","Bretagne","Nouvelle-Aquitaine","Occitanie","Auvergne-Rhone-Alpes","Provence-Alpes-Cote d'Azur","Corse"]
 site=["https://aqicn.org/map/france/en/","https://e.infogram.com/d106e364-d435-4e45-8a64-e059d8f4d5e8?parent_url=https%3A%2F%2Fwww.automobile-propre.com%2Fdossiers%2Fchiffres-vente-immatriculations-france%2F&src=embed#async_embed"]
 driver = webdriver.Firefox()
 ImmatriculationsElectrique={}
@@ -35,7 +35,7 @@ for url in site:
     time.sleep(2)
     if url is site[0]:
         villeAScrap=["Paris","Saint-Denis a1","Tours Joue les Tours","Orleans St Jean de Braye","Dijon","Besancon","Havre parc de brotonne","Rouen","Lille fives","Amiens",
-          "Reims Jean d"Aulan","Mulhouse sud","Nantes","Angers","Rennes","Brest Jean","Talence","Poitier","Toulouse","Montpellier","Lyon Centre",
+          "Reims Jean d'Aulan","Mulhouse sud","Nantes","Angers","Rennes","Brest Jean","Talence","Poitier","Toulouse","Montpellier","Lyon Centre",
           "Saint-etienne sud","Marseille rabatau","Nice","Bastia montesoro"]
         # villeAScrap=["Paris"]
         for nom in villeAScrap:
@@ -116,7 +116,7 @@ Population=[]
 
 dfQualite=pd.read_csv("Pollution2.csv",sep=";")
 nomRegion=["Ile-de-France","Centre-Val de Loire","Bourgogne-Franche-Comte","Normandie","Hauts-de-France","Grand Est",
-                "Pays de la Loire","Bretagne","Nouvelle-Aquitaine","Occitanie","Auvergne-Rhone-Alpes","Provence-Alpes-Cote d"Azur","Corse"]
+                "Pays de la Loire","Bretagne","Nouvelle-Aquitaine","Occitanie","Auvergne-Rhone-Alpes","Provence-Alpes-Cote d'Azur","Corse"]
 moyenneRegion=[]
 Region=[]
 listAnnee=[]
@@ -129,7 +129,9 @@ for region in nomRegion:
         listAnnee.append(element)
         moyenneRegion.append(dfQualite.loc[lambda ligne:ligne["Annee"]==element].loc[lambda ligne:ligne["Region"]==region,"Moyenne Annuel"].mean())
         Region.append(region)
-
+print(len(Region))
+print(len(listAnnee))
+print(len(moyenneRegion))
 df=pd.DataFrame({"Annee":listAnnee,"MoyenneRegion":moyenneRegion,"Region":Region})
 print(df.count())
 df=pd.merge(df,dfPopulation,on=["Annee","Region"],how="inner")
@@ -163,21 +165,21 @@ with open("C:/Users/chene/Documents/GitHub/WebScraping/regionsjson.txt",encoding
             ligne=df[(df.Region==nomregion) & (df.Annee==annee)]
             for region in data["features"]:
                 region["properties"]["nom"]= "".join((c for c in unicodedata.normalize("NFD", region["properties"]["nom"]) if unicodedata.category(c) != "Mn"))
-                region["properties"]["Population"]=ligne["Population"].values[0]
-                region["properties"]["Nucleaire"]=ligne["Parc nucléaire (MW)"].values[0]
-                region["properties"]["Thermique"]=ligne["Parc thermique fossile (MW)"].values[0]
-                region["properties"]["Hydrolique"]=ligne["Parc hydraulique (MW)"].values[0]
-                region["properties"]["Eolien"]=ligne["Parc éolien (MW)"].values[0]
-                region["properties"]["Solaire"]=ligne["Parc solaire (MW)"].values[0]
-                region["properties"]["Bioenergie"]=ligne["Parc bioénergies (MW)"].values[0]
-                region["properties"]["Essence"]=ligne["Essence"].values[0]
-                region["properties"]["Hybride"]=ligne["Hybride"].values[0]
-                region["properties"]["Diesel"]=ligne["diesel"].values[0]
-                region["properties"]["GPL"]=ligne["GPL"].values[0]
-                region["properties"]["Electrique"]=ligne["electrique"].values[0]
-                region["properties"]["Autre"]=ligne["autre"].values[0]
-                region["properties"]["moyenneRegion"]=ligne["MoyenneRegion"].values[0]
-        with open("C:/Users/chene/Documents/GitHub/WebScraping/regionsjson"+str(annee)+".json","w")as file:
+                region["properties"]["Population"]=int(ligne["Population"].values[0])
+                region["properties"]["Nucleaire"]=float(ligne["Parc nucléaire (MW)"].values[0])
+                region["properties"]["Thermique"]=float(ligne["Parc thermique fossile (MW)"].values[0])
+                region["properties"]["Hydrolique"]=float(ligne["Parc hydraulique (MW)"].values[0])
+                region["properties"]["Eolien"]=float(ligne["Parc éolien (MW)"].values[0])
+                region["properties"]["Solaire"]=float(ligne["Parc solaire (MW)"].values[0])
+                region["properties"]["Bioenergie"]=float(ligne["Parc bioénergies (MW)"].values[0])
+                region["properties"]["Essence"]=str(ligne["Essence"].values[0])
+                region["properties"]["Hybride"]=str(ligne["Hybride"].values[0])
+                region["properties"]["Diesel"]=str(ligne["diesel"].values[0])
+                region["properties"]["GPL"]=str(ligne["GPL"].values[0])
+                region["properties"]["Electrique"]=str(ligne["electrique"].values[0])
+                region["properties"]["Autre"]=str(ligne["autre"].values[0])
+                region["properties"]["moyenneRegion"]=str(ligne["MoyenneRegion"].values[0])
+        with open("C:/Users/chene/Documents/GitHub/WebScraping/Map/regionsjson"+str(annee)+".geojson","w")as file:
             json.dump(data,file)
 
 
